@@ -24,4 +24,4 @@ jobs:
        username: ${{ secrets.DOCKER_HUB_USERNAME }}
        password: ${{ secrets.DOCKER_HUB_PASSWORD }}
        repository: 14271832/spring-boot-hello-world
-       tags: ${{github.run_number}}
+       tags: 1.0.0
