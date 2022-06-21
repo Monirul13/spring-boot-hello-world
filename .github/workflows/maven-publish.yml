@@ -2,7 +2,7 @@ name: Build Maven Project,Create Docker Image and  Push Docker Image to Docker H
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   
 
 jobs:
